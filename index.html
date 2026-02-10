@@ -1,25 +1,36 @@
-<!DOCTYPE html><html lang=ru><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><title>Page title</title><link rel=stylesheet href=/event-project/event-project.c080280c.css><script type=module src=/event-project/event-project.22fd3ffd.js></script><body>
+<!DOCTYPE html><html lang=ru><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><title>Event Booster</title><link rel=stylesheet href=/event-project/event-project.fd7f1b8a.css><script type=module src=/event-project/event-project.9f4cbd73.js></script><body>
     
     
      <div class="is-hidden modal-backdrop">
   <div class=modal>
-    <button class=btn-modal-close>✕</button>
-    <div class=modal-content></div>
+    <button class=btn-modal-close>
+      <svg><use href=/event-project/events-svg.c5b0f01c.svg#icon-close /></svg>
+    </button>
+    <div class=modal-content>
+      
+    </div>
   </div>
 </div>
     <section class=hero>
-  <picture>
-    
+  <picture class=hero-picture>
+    <source srcset="/event-project/hero-bg-desk-1x.37f1e121.jpg 1x,/event-project/hero-bg-desk-2x.d6b838fb.jpg 2x" media="(min-width: 1200px)">
+    <source srcset="/event-project/hero-bg-tab-1x.284f19a3.jpg 1x,/event-project/hero-bg-tab-2x.25bfe991.jpg 2x" media="(min-width: 595px)">
+
+    <img srcset="/event-project/hero-bg-mob-1x.5681bc2a.jpg 1x,/event-project/hero-bg-mob-2x.ec06846d.jpg 2x" src=/event-project/hero-bg-mob-1x.5681bc2a.jpg class=hero-image alt>
   </picture>
   <h1 class=hero-title>FIND BEST EVENTS AROUND THE WORLD</h1>
   <div class=hero-inputs>
-    <div action class=search-form>
+    <form class=search-form>
       <input name=keyword id=search-input placeholder="Start searching">
-      <button class=search-submit>icon</button>
-    </div>
+      <button class=search-submit>
+        <svg><use href=/event-project/events-svg.c5b0f01c.svg#icon-search /></svg>
+      </button>
+    </form>
     <div class=countries-set>
       <input name id class=input-countries placeholder="Choose country">
-      <button type=button class=dropdown-countries>icon</button>
+      <button type=button class=dropdown-countries>
+        <svg><use href=/event-project/events-svg.c5b0f01c.svg#icon-dropdown /></svg>
+      </button>
       <div class=countries-block></div>
     </div>
   </div>
@@ -29,13 +40,26 @@
         <ul class=event-container>
             
         </ul>
+         <div class=pagination>
+            <button class="pagination-btn pagination-prev" disabled>Назад</button>
+            <div class=pagination-info>
+                <span class=pagination-current>1</span><span class=main-pag-p>&lt; &gt;</span><span class=pagination-total>1</span>
+            </div>
+            <button class="pagination-btn pagination-next">Вперед</button>
+        </div>
     </div>
 </main>
-    
+    <div class="container footer-box">
+   <p class=footer-text>© 2021 | All Rights Reserved | Developed with ♥ by GoIT Students</p>
+</div>
     <div class="is-hidden modal-backdrop">
   <div class=modal>
-    <button class=btn-modal-close>✕</button>
-    <div class=modal-content></div>
+    <button class=btn-modal-close>
+      <svg><use href=/event-project/events-svg.c5b0f01c.svg#icon-close /></svg>
+    </button>
+    <div class=modal-content>
+      
+    </div>
   </div>
 </div>
   
