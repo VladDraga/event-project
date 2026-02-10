@@ -1,0 +1,17 @@
+.footer-box{
+    padding: 60px 0 30px 0;
+      @media screen and (min-width: 768px) {
+padding: 60px 0 20px 0;
+  }
+  @media screen and (min-width: 1200px) {
+   padding: 80px 0 20px 0;
+  }
+}
+
+.footer-text{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(147, 147, 147, 0.974);
+}
